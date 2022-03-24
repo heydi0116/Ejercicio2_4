@@ -102,3 +102,8 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
+SQLitePCLRaw.lib.e_sqlite3.android.dll
+LibVLCSharp.Android.AWindow.dll
+LibVLCSharp.dll
+LibVLCSharp.Forms.dll
+Plugin.Media.dll

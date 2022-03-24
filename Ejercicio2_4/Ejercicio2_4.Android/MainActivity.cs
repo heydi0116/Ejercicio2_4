@@ -4,6 +4,7 @@ using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using LibVLCSharp.Forms.Shared;
 
 namespace Ejercicio2_4.Droid
 {
@@ -13,6 +14,7 @@ namespace Ejercicio2_4.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            LibVLCSharpFormsRenderer.Init();
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
